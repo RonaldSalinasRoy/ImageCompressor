@@ -16,7 +16,7 @@ itr       = the number of compression iterations completed. The program will sto
 threshold = the maximum desired file size to compress to in bytes
 '''
 
-def DiscordEmojiCompressor():
+def ImageCompressor():
     wide = False
     compressed = True
     itr = 0
@@ -78,5 +78,6 @@ def DiscordEmojiCompressor():
     finally:
         print("Script Complete.")
 
-DiscordEmojiCompressor()
+ImageCompressor()
 sys.exit()
+
